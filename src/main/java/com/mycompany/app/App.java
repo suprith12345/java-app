@@ -12,7 +12,10 @@ public class App
         int c;
         int d;
         int e;
-        int f;       
+        int f;  
+        int g;
+        int h;
+        int i;
         return first + second;
     }
 
