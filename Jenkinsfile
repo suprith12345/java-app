@@ -39,6 +39,12 @@ pipeline{
             }
         }
         
+        stage('git test stage'){
+            steps{
+                echo "this is pipeline from github"
+            }
+        }
+        
         stage('Deploy'){
             when {
                 expression {params.Deploy}
